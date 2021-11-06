@@ -1,1 +1,8 @@
+<div>
+    <form>
+        <input type="text" [formControl]="searchBox" placeholder="Enter ISIN">
+        <button (click)="getStockQuotes()">Search</button>
+    </form>
+
+</div>
 <app-stock-prices [stock]="stock$ | async"></app-stock-prices>

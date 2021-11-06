@@ -1,6 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
 import { StockPricesComponent } from './components/stock-list/stock-prices.component';
 import { CommonModule } from '@angular/common';
@@ -14,6 +14,7 @@ import { CommonModule } from '@angular/common';
     CommonModule,
     BrowserModule,
     FormsModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
