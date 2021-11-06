@@ -1,0 +1,20 @@
+<div>
+  <span>New Quotes</span>
+  <ng-container *ngIf="stock">
+    <div>
+      <p>
+        isin: {{ stock.isin }}
+      </p>
+      <p>
+        price: {{ stock.price }}
+      </p>
+      <p>
+        bid: {{ stock.bid }}
+      </p>
+      <p>
+        ask: {{ stock.ask }}
+      </p>
+    </div>
+  </ng-container>
+
+</div>
